@@ -6,7 +6,7 @@
 - Wi-Fi
 - VPN
 - DNS over HTTPS
-- Bypass Lock
+- Bypass Ban
 
 ## How to use?
 

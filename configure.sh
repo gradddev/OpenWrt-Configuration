@@ -31,6 +31,6 @@ restart_network
 wait_internet
 echo
 
-./modules/bypass-lock.sh
+./modules/bypass-ban.sh
 
 restart_network
