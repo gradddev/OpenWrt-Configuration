@@ -6,7 +6,7 @@
 - Wi-Fi
 - VPN
 - DNS over HTTPS
-- Bypass Ban
+- Bypass Censorship
 
 ## How to use?
 

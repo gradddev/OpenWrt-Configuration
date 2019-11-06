@@ -1,11 +1,11 @@
 #!/bin/sh
 
-echo '# BYPASS-BAN MODULE'
+echo '# BYPASS-CENSORSHIP MODULE'
 
 echo 'Installing ipset and curl packages...'
 opkg install ipset curl > /dev/null
 
-echo 'Configuring bypass ban...'
+echo 'Configuring bypass censorship...'
 cat > /usr/bin/update-prefixes << \EOM
 #!/bin/sh
 
