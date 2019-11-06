@@ -1,0 +1,13 @@
+#!/bin/sh
+
+export PPPOE_USERNAME=''
+export PPPOE_PASSWORD=''
+
+export WIFI_2G_SSID=''
+export WIFI_2G_PASSWORD=''
+export WIFI_5G_SSID=''
+export WIFI_5G_PASSWORD=''
+
+export WIREGUARD_CLIENT_PRIVATE_KEY=''
+export WIREGUARD_SERVER_PUBLIC_KEY=''
+export WIREGUARD_SERVER_HOST=''
