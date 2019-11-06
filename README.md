@@ -1,5 +1,13 @@
 # OpenWrt Configuration
 
+## Modules
+
+- PPPoE
+- Wi-Fi
+- VPN
+- DNS over HTTPS
+- Bypass Lock
+
 ## How to use?
 
 ```bash
