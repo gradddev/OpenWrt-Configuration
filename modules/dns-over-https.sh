@@ -8,8 +8,8 @@ dhcp_config=$(mktemp)
 mv /etc/config/dhcp $dhcp_config
 
 
-echo 'Installing dnsmasq-full and https_dns_proxy packages...'
-opkg install dnsmasq-full https_dns_proxy > /dev/null
+echo 'Installing dnsmasq-full and https-dns-proxy packages...'
+opkg install dnsmasq-full https-dns-proxy > /dev/null
 mv $dhcp_config /etc/config/dhcp
 
 
@@ -20,6 +20,6 @@ uci set dhcp.@dnsmasq[0].noresolv='1'
 uci commit dhcp
 
 /etc/init.d/dnsmasq restart > /dev/null
-/etc/init.d/https_dns_proxy restart > /dev/null
+/etc/init.d/https-dns-proxy restart > /dev/null
 
 echo
